@@ -1,0 +1,178 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:  'Montserrat-Bold';
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat-Black';
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.coloured-section{
+    background-color: #00539C;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #FBEAEB;
+}
+
+/* navbar */
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding:  0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat-light';
+  font-weight: 1.2rem;
+}
+
+.down-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title */
+
+#title {
+  font-weight: bold;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 2% 14% 7%;
+}
+
+/* Title Image */
+
+.phone-img{
+  width: 60%;
+  margin-left: 20px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Feature Section */
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 4%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+
+/* testimonial section */
+
+#testimonials{
+  background-color: #6883BC;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+  padding-bottom: 3%;
+  background-color: #6883BC;
+}
+
+.press-logos{
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price_text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* media Query */
+
+@media (max-width: 993px) {
+  #title {
+    text-align: center;
+  }
+  .phone-img{
+    transform: rotate(0deg);
+    position: static;
+  }
+}
+
+/* Call Of Action */
+
+#cta{
+  background-color: #6883BC;
+}
+
+/* Footer Section */
+
+#footer .container-fluid{
+  padding: 2% 4%;
+}
+
+.ab{
+  padding: 0 2%;
+}
